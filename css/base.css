@@ -7,8 +7,7 @@ body {
   min-height: 380px;
 
   /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
+  background-position: left center;
   background-size: cover;
   
   /* Needed to position the navbar */
@@ -22,9 +21,19 @@ body {
     pointer-events: none;
 }
 
+header {
+  padding: 5px 5px;
+  background-color: #32129A;
+}
+
+#toplogo {
+  float: left;
+  display: block;
+  padding: 0px 16px;
+}
+
 .topnav {
   overflow: hidden;
-  background-color: #32129A;
 }
 
 .topnav a {
@@ -52,13 +61,13 @@ body {
   color: white;
 }
 
-.topnav .icon {
+.topnav .hamburgesa {
   display: none;
 }
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
+  .topnav a.hamburgesa {
     float: right;
     display: block;
   }
@@ -66,7 +75,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
+  .topnav.responsive .hamburgesa {
     position: absolute;
     right: 0;
     top: 0;
