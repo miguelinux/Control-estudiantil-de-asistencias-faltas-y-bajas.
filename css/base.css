@@ -47,7 +47,7 @@ header {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #BB99FF;
   color: black;
   border-radius: 20px 20px;
 }
@@ -57,8 +57,9 @@ header {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #5A40AD;
   color: white;
+  border-radius: 20px 20px;
 }
 
 .topnav .hamburgesa {
