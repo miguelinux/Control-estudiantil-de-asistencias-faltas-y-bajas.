@@ -5,6 +5,7 @@ body {
   background-image: url("../img/fondo01.jpg");
 
   min-height: 380px;
+  min-height: 100vh;
 
   /* Center and scale the image nicely */
   background-position: left center;
@@ -15,6 +16,9 @@ body {
 
   padding:0;
   margin:0;
+
+  align-items: center;
+  justify-content: center;
 }
 
 .noHover{
@@ -66,15 +70,12 @@ header {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.hamburgesa {
     float: right;
     display: block;
   }
-}
-
-@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .hamburgesa {
     position: absolute;
